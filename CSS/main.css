@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    cursor: url("../Fonts/red_black_shard_by_huyhoanggia_deyrlk4/red_cursor/Non-Tail/alternate.cur"),auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* fonts  */
+@font-face {
+    font-family:netflix-sans-bold ;
+    src: url("../Fonts/netflix-sans-font/NetflixSans-Bold.woff2");
+}
+@font-face {
+    font-family:netflix-sans-med;
+    src: url("../Fonts/netflix-sans-font/NetflixSans-Medium.woff2");
+}
+.main-container{
+    min-height:100vh  ;
+    min-width:100vw ;
+    display: flex ;
+    justify-content: center;
+    background-color: black;
+
+}
+.main-content{
+    min-width:80% ;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh ;
+}
+.head{
+    margin-top: 5vh;
+    font-family: "netflix-sans-bold";
+    font-size:calc(20px + 4.5vw);
+
+    color:#EE1C25 ;
+    text-align: center;
+}
+.input-prompt{
+    display:flex;
+    box-sizing: border-box;
+}
+.input-user{
+    min-width:90% ;
+    min-height:5vh ;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    font-family: "netflix-sans-med";
+    background-color: black;
+    font-size: calc(15px + 1.5vw);
+    outline:none  ;
+    color:#BCBCBC ;
+    cursor: url("../Fonts/red_black_shard_by_huyhoanggia_deyrlk4/red_cursor/Non-Tail/text.cur"),auto;
+}
+
+.btn-user{
+    min-width: 10%;
+    min-height:5vh ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    border: none;
+    color:#EE1C25 ;
+    font-size: calc(15px + 1.5vw);
+    transition: 0.3s;
+    cursor: url("../Fonts/red_black_shard_by_huyhoanggia_deyrlk4/red_cursor/Non-Tail/link.cur"),auto;
+
+}
+.btn-user:hover{
+    background-color: #EE1C25;
+    color: black;
+}
+.btn-help{
+    margin-top: 5vh ;
+    min-height:5vh ;
+    min-width:40px;
+    border-radius: 10px;
+    font-family: "netflix-sans-med";
+    font-size:calc(10px + 1.5vw);
+    cursor: url("../Fonts/red_black_shard_by_huyhoanggia_deyrlk4/red_cursor/Non-Tail/link.cur"),auto;
+}
+.output{
+    min-width: 100%;
+    max-height: 60vh ;
+    min-height:50vh ;
+    background-color: black;
+    overflow:hidden;
+    z-index: -1;
+}
