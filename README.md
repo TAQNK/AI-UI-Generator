@@ -1,4 +1,4 @@
-#**[AI-UI-GENERATOR](https://ai-ui-generator.tanishqpal.com)**
+# **[AI-UI-GENERATOR](https://ai-ui-generator.tanishqpal.com)**
 ## Overview
 
 AI UI Generator is an AI-driven tool designed to streamline and automate the process of creating user interface components. By providing high-level design instructions, users can generate fully responsive and customizable UI elements and layouts in real-time. The tool significantly accelerates the design and development process, making it ideal for frontend developers and designers who want to focus on functionality without getting bogged down by repetitive UI coding.
